@@ -38,7 +38,7 @@ function filter(firstArray, secondArray){
     let result = []
     
     for (let i = 0; i < firstArray.length; i++){
-        if (!b.includes(a[i])){
+        if (!secondArray.includes(a[i])){
             result.push(a[i])
         }
     }
